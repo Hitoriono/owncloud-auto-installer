@@ -128,8 +128,9 @@ sudo cat <<EOM >$FILE
 EOM
 cd /var/www/
 chown -R www-data. owncloud
-occ -V
+clear
 echo ".:Information:."
+occ -V
 echo "Domain: " $my_domain
 echo "Admin Username: Admin"
 echo "Admin Password: " $sec_admin_pwd
