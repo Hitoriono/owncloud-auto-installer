@@ -19,8 +19,8 @@ echo $sec_db_pwd > /etc/.sec_db_pwd.txt
 FILE="/usr/local/bin/occ"
 cat <<EOM >$FILE
 
-echo ".:Setup:."
 #! /bin/bash
+echo ".:Setup:."
 cd /var/www/owncloud
 sudo -E -u www-data /usr/bin/php /var/www/owncloud/occ "\$@"
 EOM
