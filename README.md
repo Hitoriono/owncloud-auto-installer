@@ -2,10 +2,10 @@
 This is a script that automatically installs owncloud and sets it up with your preferred domain, admin password, and database password. Specifically meant for Ubuntu 20.04.
 
 # Setup
-First run the command githubEmbed('.embed', 'wget https://raw.githubusercontent.com/Hitoriono/owncloud-auto-installer/master/autocloud.sh');
+First run the command 'wget https://raw.githubusercontent.com/Hitoriono/owncloud-auto-installer/master/autocloud.sh'
 
 
-Then run the command githubEmbed('.embed', 'chmod +x autocloud.sh');
+Then run the command 'chmod +x autocloud.sh'
 
 
 Go through the configuration and wait for it to finish.
