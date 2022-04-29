@@ -29,9 +29,9 @@ sudo apt update -y
 sudo apt upgrade -y 
 sudo apt install -y  apache2 libapache2-mod-php mariadb-server openssl redis-server wget php-imagick php-common php-curl php-gd php-imap php-intl php-json php-mbstring php-mysql php-ssh2 php-xml php-zip php-apcu php-redis php-ldap php-opcache
 sudo apt install -y libsmbclient-dev php-dev php-pear
-sudo a2dismod mpm_event -y
+sudo a2dismod mpm_event
 sudo systemctl restart apache2
-sudo a2enmod mpm_prefork -y
+sudo a2enmod mpm_prefork
 sudo systemctl restart apache2
 sudo apt update -y
 sudo apt upgrade -y
