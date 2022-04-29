@@ -8,7 +8,10 @@ First run the command 'wget https://raw.githubusercontent.com/Hitoriono/owncloud
 Then run the command 'chmod +x autocloud.sh'
 
 
-Go through the configuration and wait for it to finish.
+Next run the command './autocloud.sh'
+
+
+Finally go through the configuration and wait for it to finish.
 # Credits
 * <a href=https://github.com/Hitoriono>Hitoriono</a>
 # License
